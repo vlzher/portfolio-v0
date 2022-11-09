@@ -24,11 +24,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 8%;
+  width: 5vh;
   font-size: 2rem;
   border-radius: 50%;
   background: #242423;
   color: #E8EDDF;
+}
+
+@media screen and (max-width: 1000px) {
+  .language-txt {
+    font-size: 1.75rem;
+  }
+  .language-level {
+    font-size: 1.75rem;
+  }
 }
 
 /*# sourceMappingURL=language.css.map */
