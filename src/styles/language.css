@@ -13,9 +13,10 @@
   height: 100%;
   display: flex;
   align-items: center;
-  width: 40%;
-  font-size: 2rem;
+  font-family: "Luckiest Guy", cursive;
   color: #242423;
+  width: 40%;
+  font-size: 1.75rem;
 }
 
 .language-level {
@@ -25,8 +26,9 @@
   align-items: center;
   justify-content: center;
   width: 5vh;
-  font-size: 2rem;
+  font-size: 1.75rem;
   border-radius: 50%;
+  font-family: "Luckiest Guy", cursive;
   background: #242423;
   color: #E8EDDF;
 }

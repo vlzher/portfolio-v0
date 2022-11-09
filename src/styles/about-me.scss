@@ -15,12 +15,14 @@
   margin: 10px;
   padding: 10px;
   font-size: 2.5rem;
-  color:$base-color2;
-  outline: 2px solid $base-color3;
+  color:$base-color1;
+  outline: 3px solid $base-color3;
   border-radius: 10px;
   width: 65%;
   height: 90%;
   background:$base-color4;
+  font-family: 'Amaranth', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 
 }
 
@@ -37,9 +39,10 @@
   display: flex;
   width: 400px;
   height: 400px;
-  border-radius: 10%;
-  background: $base-color4;
-  outline: 2px solid $base-color3;
+  border-radius: 15%;
+  outline: 3px solid $base-color3;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-image: url("../assets/pic_about-me_400x400.png");
 
 }
 
@@ -56,11 +59,13 @@
   .about-me-photo1{
     width: 250px;
     height: 250px;
+    background-image: url("../assets/pic_about-me_250x250.png");
   }
   .about-me-txt{
     width: 90%;
     height: 50%;
     font-size: 1.25rem;
+
   }
 
 

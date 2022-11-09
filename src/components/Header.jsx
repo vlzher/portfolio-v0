@@ -12,7 +12,7 @@ const Header = () => {
                 </div>
 
                 <div className="header-link">
-                    Skills
+                    Experience
                 </div>
                 <div className="header-link">
                     Projects

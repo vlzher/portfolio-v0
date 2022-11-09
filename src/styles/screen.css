@@ -16,6 +16,7 @@
   width: 100vw;
   height: 10vh;
   color: #E8EDDF;
+  font-family: "Fredoka One", cursive;
 }
 
 @media screen and (max-width: 1000px) {
