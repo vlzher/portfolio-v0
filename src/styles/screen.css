@@ -22,6 +22,9 @@
   .screen-text {
     font-size: 3rem;
   }
+  .screen {
+    height: 100vh;
+  }
 }
 
 /*# sourceMappingURL=screen.css.map */

@@ -6,7 +6,7 @@ import Language from "./Language";
 import Skill from "./Skill";
 const Experience = () => {
     return (
-        <div className="screen">
+        <div className="screen experience1">
             <div className="screen-text">
                     Experience
             </div>
