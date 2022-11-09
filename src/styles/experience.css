@@ -1,0 +1,76 @@
+.experience {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 80%;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  color: #E8EDDF;
+}
+
+.skills-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: #E8EDDF;
+  margin-bottom: 20px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  color: #E8EDDF;
+}
+
+.languages-text {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  justify-content: center;
+  color: #E8EDDF;
+}
+
+.skills-zone {
+  padding: 2% 5% 0px 5%;
+  width: 45%;
+  height: 100%;
+  border-radius: 20px;
+  background: #242423;
+}
+
+.languages-zone {
+  padding: 2% 5% 0px 5%;
+  width: 45%;
+  height: 100%;
+  border-radius: 20px;
+  background: #242423;
+}
+
+@media screen and (max-width: 1000px) {
+  .screen {
+    height: 200vh;
+  }
+  .experience {
+    flex-direction: column;
+    height: 200vh;
+  }
+  .languages-zone {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .skills-zone {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=experience.css.map */

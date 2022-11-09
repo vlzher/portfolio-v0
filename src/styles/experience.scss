@@ -1,0 +1,74 @@
+@import "./variables";
+.experience{
+  margin-top: 2vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 80%;
+
+
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  color:$base-color2;
+}
+.skills-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color:$base-color2;
+  margin-bottom: 20px;
+}
+.languages{
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  color:$base-color2;
+}
+.languages-text{
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  justify-content: center;
+  color:$base-color2;
+}
+
+.skills-zone{
+  padding: 2% 5% 0px 5%;
+  width: 45%;
+  height: 100%;
+  border-radius: 20px;
+  background:$base-color4;
+
+}
+.languages-zone{
+  padding: 2% 5% 0px 5%;
+  width: 45%;
+  height: 100%;
+  border-radius: 20px;
+  background:$base-color4;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .screen{
+    height: 200vh;
+  }
+  .experience {
+    flex-direction: column;
+    height: 200vh;
+  }
+  .languages-zone{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .skills-zone{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,14 @@
+.skill {
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 2rem;
+  background: #F5CB5C;
+  color: #242423;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=skill.css.map */
