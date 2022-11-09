@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .about-me-txt {
@@ -25,7 +26,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: right;
-  width: 35%;
+  width: 30%;
   height: 90%;
 }
 
@@ -37,6 +38,17 @@
   border-radius: 10%;
   background: #242423;
   outline: 2px solid #F5CB5C;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-me-photo {
+    width: 100%;
+    height: 70%;
+  }
+  .about-me-txt {
+    width: 100%;
+    font-size: 2rem;
+  }
 }
 
 /*# sourceMappingURL=about-me.css.map */

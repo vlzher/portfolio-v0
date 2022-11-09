@@ -10,11 +10,12 @@ const AboutMe = () => {
                 About me
             </div>
             <div className="about-me">
-                <div className="about-me-txt">
-                    {aboutMe}
-                </div>
+
                 <div className="about-me-photo">
                     <div className="about-me-photo1"></div>
+                </div>
+                <div className="about-me-txt">
+                    {aboutMe}
                 </div>
             </div>
         </div>
