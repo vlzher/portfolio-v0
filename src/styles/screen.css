@@ -18,4 +18,10 @@
   color: #E8EDDF;
 }
 
+@media screen and (max-width: 1000px) {
+  .screen-text {
+    font-size: 3rem;
+  }
+}
+
 /*# sourceMappingURL=screen.css.map */
