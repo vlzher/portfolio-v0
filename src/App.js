@@ -4,6 +4,7 @@ import FirstScreen from "./components/FirstScreen";
 import AboutMe from "./components/AboutMe";
 import SeparateLine from "./components/SeparateLine";
 import Experience from "./components/Experience/Experience";
+import Projects from "./components/Projects";
 function App() {
   return (
       <div className="app">
@@ -13,6 +14,8 @@ function App() {
           <AboutMe/>
           <SeparateLine/>
           <Experience/>
+          <SeparateLine/>
+          <Projects/>
           <SeparateLine/>
       </div>
   );

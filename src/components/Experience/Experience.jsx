@@ -16,7 +16,7 @@ const Experience = () => {
                         <div className="skills-text">
                             Skills:
                         </div>
-                        {skills.map((skill,id) => <Skill txt={skill.txt} id={id}/> )}
+                        {skills.map((skill,id) => <Skill txt={skill.txt} key={id}/> )}
 
                     </div>
                 </div>
@@ -26,7 +26,7 @@ const Experience = () => {
                             Languages:
                         </div>
                         {languages.map((language,id)=>
-                            <Language id={id} txt={language.txt} level={language.level}/> )}
+                            <Language key={id} txt={language.txt} level={language.level}/> )}
                     </div>
                 </div>
 
