@@ -18,6 +18,8 @@ function App() {
           <SeparateLine id={3} visible={true}/>
           <Projects/>
           <SeparateLine id={4} visible={true}/>
+          <AboutMe/>
+          <SeparateLine/>
       </div>
   );
 }

@@ -2,8 +2,34 @@ import React, {useEffect, useState} from 'react';
 import "../styles/header.scss"
 import {useScrollDirection} from "../hooks/useScrollDirection";
 const Header = () => {
-
+    const [headerLinks, setHeaderLinks] = useState([false,false,false,false]);
     const scrollDirection = useScrollDirection();
+
+    function scrollHandler(e) {
+        const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+        const height = e.target.documentElement.scrollHeight - (e.target.documentElement.scrollTop + window.innerHeight);
+        if(height < 0.6*vh){
+            setHeaderLinks([false,false,false,true])
+        }
+        if(height > 0.6*vh && height<1.6*vh){
+            setHeaderLinks([false,false,true,false])
+        }
+        if(height > 1.6*vh && height < 2.6*vh){
+            setHeaderLinks([false,true,false,false])
+        }
+        if(height > 2.6*vh){
+            setHeaderLinks([true,false,false,false])
+        }
+    }
+
+    useEffect(() => {
+        document.addEventListener('scroll', scrollHandler)
+        return function () {
+            document.removeEventListener('scroll', scrollHandler)
+        }
+    })
+
+
 
     const handleClickScroll = (section) => {
         const element = document.getElementById(section);
@@ -18,16 +44,16 @@ const Header = () => {
 
             </div>
             <ul className="header-links">
-                <li className="header-link" style={{width:250}} onClick={() => handleClickScroll("sl 1")}>
+                <li className={ headerLinks[0] ? "header-link active" : "header-link"} onClick={() => handleClickScroll("sl 1")}>
                         About Me
                 </li>
-                <li className="header-link" onClick={() => handleClickScroll("sl 2")}>
+                <li className={ headerLinks[1] ? "header-link active" : "header-link"} onClick={() => handleClickScroll("sl 2")}>
                     Experience
                 </li>
-                <li className="header-link" onClick={() => handleClickScroll("sl 3")}>
+                <li className={ headerLinks[2] ? "header-link active" : "header-link"} onClick={() => handleClickScroll("sl 3")}>
                     Projects
                 </li>
-                <li className="header-link"onClick={() => handleClickScroll("sl 4")}>
+                <li className={ headerLinks[3] ? "header-link active" : "header-link"} onClick={() => handleClickScroll("sl 4")}>
                     Contact
                 </li>
             </ul>

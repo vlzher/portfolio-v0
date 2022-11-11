@@ -42,8 +42,11 @@
   justify-content: center;
   color: $base-color4;
   border-radius: 10px;
-  transition: 0.15s;
+  transition: 0.2s;
 }
 .header-link:hover{
   background: $base-color2;
+}
+.header-link.active{
+  width: 250px;
 }

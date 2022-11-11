@@ -45,11 +45,15 @@
   justify-content: center;
   color: #242423;
   border-radius: 10px;
-  transition: 0.15s;
+  transition: 0.2s;
 }
 
 .header-link:hover {
   background: #E8EDDF;
+}
+
+.header-link.active {
+  width: 250px;
 }
 
 /*# sourceMappingURL=header.css.map */
