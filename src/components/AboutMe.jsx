@@ -5,20 +5,22 @@ import "../styles/about-me.scss"
 
 const AboutMe = () => {
     return (
-        <div className="screen">
-            <div className="screen-text">
-                About me
-            </div>
-            <div className="about-me">
+                <div className="screen" id='about-me'>
+                    <div className="screen-text">
+                        About me
+                    </div>
+                    <div className="about-me">
 
-                <div className="about-me-photo">
-                    <div className="about-me-photo1"></div>
+                        <div className="about-me-photo">
+                            <div className="about-me-photo1"></div>
+                        </div>
+                        <div className="about-me-txt">
+                            {aboutMe}
+                        </div>
+                    </div>
                 </div>
-                <div className="about-me-txt">
-                    {aboutMe}
-                </div>
-            </div>
-        </div>
+
+
     );
 };
 

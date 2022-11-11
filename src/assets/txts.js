@@ -21,3 +21,9 @@ export const skills = [
     {txt: "- bla bla bla"},
     {txt: "- bla bla bla"},
 ]
+export const projectUrls= [
+    "https://tourmaline-creponne-b4dad8.netlify.app/",
+    "https://animated-shortbread-1a09d4.netlify.app/",
+    "https://melodic-pudding-69dfc4.netlify.app/",
+
+]
