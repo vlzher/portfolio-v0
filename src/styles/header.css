@@ -1,10 +1,22 @@
 .header {
-  height: 75px;
-  width: 100vw;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  transition: 0.25s;
   background-color: #242423;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  user-select: none;
+}
+
+.header.active {
+  top: 0px;
+}
+
+.header.hidden {
+  z-index: 40;
+  top: -60px;
 }
 
 .photo-header {

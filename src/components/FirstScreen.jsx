@@ -3,7 +3,7 @@ import "../styles/first-screen.scss"
 import "../styles/screen.scss"
 const FirstScreen = () => {
     return (
-        <div className="screen first">
+        <div className="screen first" id={"first-screen"}>
             <div className="first-screen">
                 <div className="first-screen-photo">
 

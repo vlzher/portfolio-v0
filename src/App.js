@@ -9,14 +9,15 @@ function App() {
   return (
       <div className="app">
           <Header/>
+          <SeparateLine id={0} visible={false}/>
           <FirstScreen/>
-          <SeparateLine/>
+          <SeparateLine id={1} visible={true}/>
           <AboutMe/>
-          <SeparateLine/>
+          <SeparateLine id={2} visible={true}/>
           <Experience/>
-          <SeparateLine/>
+          <SeparateLine id={3} visible={true}/>
           <Projects/>
-          <SeparateLine/>
+          <SeparateLine id={4} visible={true}/>
       </div>
   );
 }

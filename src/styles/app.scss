@@ -1,11 +1,13 @@
+@import "variables";
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .app {
-  height: 100vh;
-  max-height: 100vh;
-  width: 100vw;
-  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  overflow-x: clip;
+  overflow-y: auto;
+  background: $base-color5;
 }

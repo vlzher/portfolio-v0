@@ -1,6 +1,7 @@
 .screen {
   height: 100vh;
-  width: 100vw;
+  margin-top: 7vh;
+  width: 100%;
   background: #333533;
   display: flex;
   align-items: center;
@@ -8,12 +9,11 @@
 }
 
 .screen-text {
-  margin-top: 2vh;
   font-size: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   height: 10vh;
   color: #E8EDDF;
   font-family: "Fredoka One", cursive;

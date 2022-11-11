@@ -1,8 +1,8 @@
 import React from 'react';
 import "../styles/separate-line.scss"
-const SeparateLine = () => {
+const SeparateLine = ({id,visible}) => {
     return (
-        <div className="separate-line">
+        <div className={visible ? `separate-line` : 'separate-line hidden'} id={`sl ${id}`}>
 
         </div>
     );
