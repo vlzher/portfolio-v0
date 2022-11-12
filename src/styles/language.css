@@ -7,16 +7,17 @@
   margin-top: 20px;
   border-radius: 10px;
   background: #F5CB5C;
+  padding-left: 15%;
 }
 
 .language-txt {
   height: 100%;
   display: flex;
   align-items: center;
-  font-family: "Luckiest Guy", cursive;
+  font-family: "Fredoka One", cursive;
   color: #242423;
-  width: 40%;
-  font-size: 1.75rem;
+  width: 70%;
+  font-size: 2.25rem;
 }
 
 .language-level {
@@ -25,9 +26,9 @@
   align-items: center;
   justify-content: center;
   width: 5vh;
-  font-size: 1.75rem;
+  font-size: 1.7rem;
   border-radius: 50%;
-  font-family: "Luckiest Guy", cursive;
+  font-family: "Fredoka One", cursive;
   background: #242423;
   color: #E8EDDF;
   margin: auto auto auto 10px;

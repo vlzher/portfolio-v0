@@ -46,12 +46,12 @@
   align-items: center;
   background: #F5CB5C;
   color: #242423;
-  font-size: 3.5rem;
+  font-size: 4rem;
   border-radius: 10px;
   text-decoration: none;
   height: 15vh;
   width: 25vw;
-  font-family: "Luckiest Guy", cursive;
+  font-family: "Fredoka One", cursive;
   outline: 6px solid #242423;
   transition: 0.1s;
 }
