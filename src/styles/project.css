@@ -40,6 +40,7 @@
   .project {
     margin: 2.5% 0 2.5% 0;
     box-shadow: none;
+    width: min(90%, 475px);
   }
 }
 
