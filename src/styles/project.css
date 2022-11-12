@@ -24,6 +24,7 @@
   background: rgba(36, 36, 35, 0.97);
   outline: 3px solid #F5CB5C;
   font-family: "Luckiest Guy", cursive;
+  z-index: 1;
 }
 
 .project1:hover {

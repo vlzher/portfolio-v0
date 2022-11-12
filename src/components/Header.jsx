@@ -4,6 +4,7 @@ import {useScrollDirection} from "../hooks/useScrollDirection";
 const Header = () => {
     const [headerLinks, setHeaderLinks] = useState([false,false,false,false]);
     const scrollDirection = useScrollDirection();
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 
 
@@ -32,6 +33,11 @@ const Header = () => {
         }
     })
 
+    const mobileButtonFunction = (goTo) => {
+        handleClickScroll(goTo)
+        setIsMenuOpen(false)
+    }
+
 
 
     const handleClickScroll =  (section) => {
@@ -41,10 +47,25 @@ const Header = () => {
         }
     };
     return (
-        <div className={scrollDirection==="up" ? "header active":"header hidden"}>
+        <div className={(scrollDirection==="up"||isMenuOpen) ? "header active":"header hidden"}>
 
           <div className="photo-header" onClick={() => handleClickScroll("sl 0")}>
 
+            </div>
+            <div className={ isMenuOpen ? "menu-mobile active" :"menu-mobile"} onClick={() => setIsMenuOpen(!isMenuOpen)}></div>
+            <div className={ isMenuOpen ? "menu-mobile-list active" : "menu-mobile-list"}>
+                <li className={"header-link"} onClick={() => mobileButtonFunction("sl 1")}>
+                    About Me
+                </li>
+                <li className={"header-link"} onClick={() => mobileButtonFunction("sl 2")}>
+                    Experience
+                </li>
+                <li className={"header-link"} onClick={() => mobileButtonFunction("sl 3")}>
+                    Projects
+                </li>
+                <li className={"header-link"} onClick={() => mobileButtonFunction("sl 4")}>
+                    Contact
+                </li>
             </div>
             <ul className="header-links">
                 <li className={ headerLinks[0] ? "header-link active" : "header-link"} onClick={() => handleClickScroll("sl 1")}>
