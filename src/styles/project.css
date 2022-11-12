@@ -38,9 +38,12 @@
 
 @media screen and (max-width: 1000px) {
   .project {
-    margin: 2.5% 0 2.5% 0;
+    margin: 4.5% 0 4.5% 0;
     box-shadow: none;
     width: min(90%, 475px);
+  }
+  .project1 {
+    font-size: 2rem;
   }
 }
 
