@@ -12,14 +12,15 @@ export const languages = [
     {txt:"- Spanish",level:"A1"}
 ]
 export const skills = [
-    {txt: "- bla bla bla"},
-    {txt: "- bla bla bla"},
-    {txt: "- bla bla bla"},
-    {txt: "- bla bla bla"},
-    {txt: "- bla bla bla"},
-    {txt: "- bla bla bla"},
-    {txt: "- bla bla bla"},
-    {txt: "- bla bla bla"},
+    {txt: "- Javascript"},
+    {txt: "- Typescript (basic)"},
+    {txt: "- React"},
+    {txt: "- React Router"},
+    {txt: "- Redux / Mobx"},
+    {txt: "- Websocket / Http"},
+    {txt: "- JWT"},
+
+
 ]
 export const projectUrls= [
     "https://tourmaline-creponne-b4dad8.netlify.app/",
@@ -27,3 +28,7 @@ export const projectUrls= [
     "https://melodic-pudding-69dfc4.netlify.app/",
 
 ]
+
+export const contactTxt = "I’m currently looking for new opportunities and challenges\n" +
+    "My inbox is always open\n" +
+    "Whether you have a question or just want to say hi\nI’ll try my best to get back to you!"

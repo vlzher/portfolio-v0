@@ -2,7 +2,7 @@
   height: 60px;
   width: 100%;
   position: fixed;
-  transition: 0.25s;
+  transition: 0.5s;
   background-color: #242423;
   display: flex;
   align-items: center;
@@ -12,6 +12,7 @@
 
 .header.active {
   top: 0px;
+  transition: 0.1s;
 }
 
 .header.hidden {

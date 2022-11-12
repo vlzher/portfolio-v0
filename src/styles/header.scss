@@ -3,7 +3,7 @@
   height: 60px;
   width: 100%;
   position: fixed;
-  transition: 0.25s;
+  transition: 0.5s;
   background-color:$base-color4;
   display: flex;
   align-items: center;
@@ -12,6 +12,7 @@
 }
 .header.active{
   top: 0px;
+  transition: 0.1s;
 }
 .header.hidden{
   z-index: 40;

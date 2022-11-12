@@ -3,11 +3,11 @@
   height: 6vh;
   display: flex;
   align-items: center;
+  padding-left: 25%;
   margin-top: 15px;
   font-size: 2rem;
   background: #F5CB5C;
   color: #242423;
-  padding-left: 10px;
   border-radius: 10px;
   font-family: "Luckiest Guy", cursive;
 }

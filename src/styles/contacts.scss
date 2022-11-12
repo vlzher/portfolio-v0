@@ -1,1 +1,90 @@
 @import "./variables";
+
+.contacts-zone{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vh;
+  justify-content: flex-start;
+  align-items: center;
+  height: 85vh;
+  width: 90vw;
+  border-radius: 15px;
+}
+.contacts-header {
+  padding-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 4rem;
+  height: 15vh;
+  width: 100vw;
+  font-family: "Fredoka One", cursive;
+  color:$base-color2;
+}
+.contacts-text{
+  margin-top: 7.5vh;
+  white-space:pre-wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.3rem;
+  height: 35vh;
+  width: 80%;
+  font-family: "Fredoka One", cursive;
+  outline: 6px solid $base-color4;
+
+
+  color: $base-color4;
+  line-height: 1.2;
+  background: $base-color3;
+  border-radius: 15px;
+}
+.email-link{
+  margin-top: 7.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:$base-color3;
+  color:$base-color4;
+  font-size: 3.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  height: 15vh;
+  width: 25vw;
+  font-family: "Luckiest Guy", cursive;
+  outline: 6px solid $base-color4;
+  transition: 0.1s;
+}
+.email-link:hover{
+  background:$base-color2;
+  color: $base-color4;
+}
+
+.footer{
+  width: 100%;
+  height: 5vh;
+  background:$base-color4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color:$base-color3;
+  font-family: "Fredoka One", cursive;
+}
+
+@media screen and (max-width: 1000px) {
+  .contacts-text{
+    font-size: 1.6rem;
+    height: 40vh;
+    width: 95%;
+  }
+  .email-link{
+    height: 10vh;
+    width: 80vw;
+    font-size: 3rem;
+  }
+
+
+
+}

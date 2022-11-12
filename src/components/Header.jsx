@@ -5,6 +5,9 @@ const Header = () => {
     const [headerLinks, setHeaderLinks] = useState([false,false,false,false]);
     const scrollDirection = useScrollDirection();
 
+
+
+
     function scrollHandler(e) {
         const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
         const height = e.target.documentElement.scrollHeight - (e.target.documentElement.scrollTop + window.innerHeight);
@@ -31,7 +34,7 @@ const Header = () => {
 
 
 
-    const handleClickScroll = (section) => {
+    const handleClickScroll =  (section) => {
         const element = document.getElementById(section);
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' });

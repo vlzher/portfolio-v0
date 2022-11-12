@@ -5,6 +5,7 @@ import AboutMe from "./components/AboutMe";
 import SeparateLine from "./components/SeparateLine";
 import Experience from "./components/Experience/Experience";
 import Projects from "./components/Projects";
+import Contacts from "./components/Contacts";
 function App() {
   return (
       <div className="app">
@@ -18,8 +19,7 @@ function App() {
           <SeparateLine id={3} visible={true}/>
           <Projects/>
           <SeparateLine id={4} visible={true}/>
-          <AboutMe/>
-          <SeparateLine/>
+          <Contacts/>
       </div>
   );
 }
