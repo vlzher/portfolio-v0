@@ -24,11 +24,15 @@
   }
   .projects {
     flex-direction: column;
-    height: 95vh;
+    height: 125vh;
+    justify-content: flex-end;
   }
   .projects-text-bottom {
     margin-top: 5vh;
     font-size: 1.75rem;
+  }
+  .projects-text-bottom {
+    height: 5vh;
   }
 }
 

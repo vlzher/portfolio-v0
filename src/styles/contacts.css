@@ -75,6 +75,7 @@
 
 @media screen and (max-width: 1000px) {
   .contacts-text {
+    margin-top: 10vh;
     font-size: 1.6rem;
     height: 40vh;
     width: 95%;
