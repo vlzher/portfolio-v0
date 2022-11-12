@@ -1,8 +1,8 @@
-export const aboutMe = "\"        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod" +
-    " tempor incididunt ut labore et dolore magna aliqua." +
-    " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi" +
-    " ut aliquip ex ea commodo velit esse cillum dolore eu fugiat nulla pariatur." +
-    " Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia";
+export const aboutMe = "    Currently, I'm a second-year CS student at Wroclaw University of Science and Technology." +
+    " I'm passionate about bringing visual and technical ideas to life." +
+    " Writing clean, accessible, human code really matters to me." +
+    " I'm happiest when I'm making the toughest tasks done." +
+    " I'm a approachable person, so we'll definitely get along well right away! 😃"
 
 export const nameSur = "Uladzislau \nZherabiatsyeu"
 
