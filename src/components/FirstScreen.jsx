@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/first-screen.scss"
 import "../styles/screen.scss"
+import {nameSur} from "../assets/txts";
 const FirstScreen = () => {
     return (
         <div className="screen first" id={"first-screen"}>
@@ -9,7 +10,7 @@ const FirstScreen = () => {
 
                 </div>
                 <div className={"first-screen-name"}>
-                    Uladzislau Zherabiatsyeu
+                    {nameSur}
                 </div>
                 <div className={"first-screen-quote"}>
                     „ Trying to be ahead of the curve! ”

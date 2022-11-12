@@ -53,10 +53,13 @@
     margin-bottom: 7.5vh;
   }
   .first-screen-name{
-    font-size: 1.75rem;
+    font-size: 3rem;
+    white-space:pre-wrap;
+    text-align: center;
   }
   .first-screen-quote {
-    font-size: 1.25rem;
+    margin-top: 4vh;
+    font-size: 1.5rem;
   }
 
 }

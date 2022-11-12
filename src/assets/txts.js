@@ -4,6 +4,8 @@ export const aboutMe = "\"        Lorem ipsum dolor sit amet, consectetur adipis
     " ut aliquip ex ea commodo velit esse cillum dolore eu fugiat nulla pariatur." +
     " Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia";
 
+export const nameSur = "Uladzislau \nZherabiatsyeu"
+
 export const languages = [
     {txt:"- Russian",level:"N"},
     {txt:"- Belarusian",level:"N"},
