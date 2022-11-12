@@ -21,7 +21,6 @@
   font-size: 1.75rem;
 }
 .language-level{
-  margin-left: 10px;
   aspect-ratio: 1/1;
   display: flex;
   align-items: center;
@@ -32,6 +31,7 @@
   font-family: 'Luckiest Guy', cursive;
   background:$base-color4;
   color:$base-color2;
+  margin: auto auto auto 10px;
 
 }
 @media screen and (max-width: 1000px) {
