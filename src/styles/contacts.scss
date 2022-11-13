@@ -63,7 +63,7 @@
 
 .footer{
   width: 100%;
-  height: 5vh;
+  height: 4vh;
   background:$base-color4;
   display: flex;
   justify-content: center;
@@ -71,6 +71,9 @@
   font-size: 1.5rem;
   color:$base-color3;
   font-family: "Fredoka One", cursive;
+}
+.mobile-footer-contacts{
+  display: none;
 }
 
 @media screen and (max-width: 1000px) {
@@ -85,6 +88,30 @@
     width: 80vw;
     font-size: 3rem;
     text-align: center;
+  }
+  .mobile-footer-contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+    width: 100%;
+    background:$base-color5;
+  }
+  .footer-contact{
+    height: 32px;
+    width: 32px;
+    background: $base-color4;
+    outline: 3px solid $base-color4;
+  }
+  .footer-contact.github{
+    background-image: url("../assets/github.png");
+    margin-right: 1.5%;
+    border-radius: 50%;
+  }
+  .footer-contact.linkedin{
+    background-image: url("../assets/linkedin.png");
+    margin-left: 1.5%;
+    border-radius: 30%;
   }
 
 

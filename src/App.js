@@ -6,9 +6,11 @@ import SeparateLine from "./components/SeparateLine";
 import Experience from "./components/Experience/Experience";
 import Projects from "./components/Projects";
 import Contacts from "./components/Contacts";
+import ContactsDesktopAttrs from "./components/Contacts-desktop-attrs";
 function App() {
   return (
       <div className="app">
+          <ContactsDesktopAttrs/>
           <Header/>
           <SeparateLine id={0} visible={false}/>
           <FirstScreen/>

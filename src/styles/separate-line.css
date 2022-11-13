@@ -2,6 +2,7 @@
   width: 100%;
   height: 4px;
   background: #F5CB5C;
+  z-index: 3;
 }
 
 .separate-line.hidden {
