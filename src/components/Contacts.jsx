@@ -15,8 +15,8 @@ const Contacts = () => {
             </div>
 
             <div className="mobile-footer-contacts">
-                <a className="footer-contact github" href="https://github.com/vlzher"></a>
-                <a className="footer-contact linkedin" href="https://www.linkedin.com/in/uladzislau-zherabiatsyeu-b90882229/"></a>
+                <a className="footer-contact github" href="https://github.com/vlzher"> </a>
+                <a className="footer-contact linkedin" href="https://www.linkedin.com/in/uladzislau-zherabiatsyeu-b90882229/"> </a>
             </div>
 
             <div className="footer">
