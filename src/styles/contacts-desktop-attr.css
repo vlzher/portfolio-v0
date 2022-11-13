@@ -1,0 +1,79 @@
+.contact-attrs {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.email-desktop {
+  position: fixed;
+  text-decoration: none;
+  bottom: 0;
+  left: 0;
+  rotate: -90deg;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 10px;
+  padding-left: 2.5%;
+  transition: 0.3s;
+  color: #E8EDDF;
+  font-family: "Fredoka One", cursive;
+  height: 15%;
+  width: 10%;
+}
+
+.email-desktop:hover {
+  letter-spacing: 5px;
+  color: #F5CB5C;
+}
+
+.social-media-desktop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  border-radius: 10px;
+  bottom: 5%;
+  right: 1%;
+  height: 15%;
+  width: 70px;
+  background: #242423;
+  outline: 2px solid #E8EDDF;
+}
+
+.social-media {
+  height: 32px;
+  width: 32px;
+  background: #242423;
+}
+
+.social-media-desktop:hover {
+  outline-color: #F5CB5C;
+}
+
+.social-media.github {
+  background-image: url("../assets/github.png");
+  border-radius: 50%;
+}
+
+.social-media.linkedin {
+  background-image: url("../assets/linkedin.png");
+  border-radius: 20%;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-attrs {
+    display: none;
+  }
+  .email-desktop {
+    display: none;
+  }
+  .social-media-desktop {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=contacts-desktop-attr.css.map */
