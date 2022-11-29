@@ -9,6 +9,7 @@
   height: 85vh;
   width: 90vw;
   border-radius: 15px;
+  container-type: inline-size;
 }
 .contacts-header {
   padding-top: 2vh;
@@ -28,11 +29,13 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 5cqb;
   height: 35vh;
   width: 80%;
   font-family: "Fredoka One", cursive;
   outline: 6px solid $base-color4;
+
+
 
 
   color: $base-color4;
