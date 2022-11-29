@@ -9,10 +9,11 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  container-type: inline-size;
 
 }
 .about-me-txt{
-  font-size: 2.25rem;
+  font-size: 3cqi;
   color:$base-color1;
   outline: 3px solid $base-color3;
   border-radius: 10px;
