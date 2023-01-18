@@ -20,7 +20,7 @@ const Contacts = () => {
             </div>
 
             <div className="footer">
-                Wroclaw, 2022
+                Wroclaw, 2023
             </div>
         </div>
     );
