@@ -1,8 +1,7 @@
-export const aboutMe = "    Currently, I'm a second-year CS student at Wroclaw University of Science and Technology." +
-    " I'm passionate about bringing visual and technical ideas to life." +
-    " Writing clean, accessible, human code really matters to me." +
-    " I'm happiest when I'm making the toughest tasks done." +
-    " I'm a approachable person, so we'll definitely get along well right away! 😃"
+export const aboutMe = "    I am a 2-year computer science student with a passion for programming." +
+    " I have experience in multiple programming languages and am always looking to learn more." +
+    " I am a strong communicator and enjoy working on projects that allow me to collaborate with others." +
+    " I am excited to continue honing my skills and building a diverse portfolio of work in the tech industry. 😃"
 
 export const nameSur = "Uladzislau \nZherabiatsyeu"
 
@@ -14,12 +13,12 @@ export const languages = [
     {txt:"- Spanish",level:"A1"}
 ]
 export const skills = [
-    {txt: "- Javascript"},
-    {txt: "- Typescript (basic)"},
-    {txt: "- React"},
-    {txt: "- React Router"},
-    {txt: "- Redux / Mobx"},
-    {txt: "- Websocket / Http"},
+    {txt: "- JS / TS"},
+    {txt: "- Vue / React"},
+    {txt: "- Vuex / Redux"},
+    {txt: "- Jest"},
+    {txt: "- REST API / GraphQL"},
+    {txt: "- WebSocket / HTTP"},
     {txt: "- JWT"},
 
 
@@ -31,6 +30,7 @@ export const projectUrls= [
 
 ]
 
-export const contactTxt = "I’m currently looking for new opportunities and challenges\n" +
-    "My inbox is always open\n" +
-    "Whether you have a question or just want to say hi\nI’ll try my best to get back to you!"
+export const contactTxt = "Connect with purpose, communicate with clarity, and collaborate with passion - that is my approach to building meaningful relationships through my work." +
+    " Whether it's a potential client, colleague, or collaborator," +
+    " I believe that every connection is an opportunity to grow, learn," +
+    " and make an impact. Let's work together to achieve our goals and make a difference!"
