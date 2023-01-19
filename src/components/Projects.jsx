@@ -21,9 +21,9 @@ const Projects = () => {
 
             </div>
             <div className="projects">
-                <Project txt={"Kanban board"} logoUrl={KanbanBoard} url={projectUrls[0]}/>
-                <Project txt={"Clock"} logoUrl={Clock} url={projectUrls[0]}/>
-                <Project txt={"Kanban board"} logoUrl={KanbanBoard} url={projectUrls[0]}/>
+                <Project txt={"Kanban board"} logoUrl={KanbanBoard} url={projectUrls[3]}/>
+                <Project txt={"Clock"} logoUrl={Clock} url={projectUrls[4]}/>
+                <Project txt={"Kanban board"} logoUrl={KanbanBoard} url={projectUrls[3]}/>
             </div>
 
 

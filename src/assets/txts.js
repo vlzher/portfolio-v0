@@ -27,9 +27,8 @@ export const projectUrls= [
     "https://crypto-price-graph.netlify.app/",
     "https://dictionary-shshshsk-vlzher.netlify.app/login",
     "https://paint-analogue.netlify.app/",
-    "https://custom-clock-vlzher.netlify.app/",
     "https://kanban-desk.netlify.app/",
-
+    "https://custom-clock-vlzher.netlify.app/",
 ]
 
 export const contactTxt = "Connect with purpose, communicate with clarity, and collaborate with passion - that is my approach to building meaningful relationships through my work." +
