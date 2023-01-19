@@ -26,7 +26,8 @@
   width: 50px;
   border-radius: 50%;
   margin-left: 15px;
-  background-image: url("../assets/logo-header.png");
+  background-image: url("../assets/logo350x350.png");
+  background-size: cover;
 }
 
 .header-links {

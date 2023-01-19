@@ -1,12 +1,15 @@
 @import "./variables";
 
 .projects{
-  height: 65vh;
+  height: 50vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100vw;
   justify-content: center;
+}
+.screen.proj {
+  height: 120vh;
 }
 .projects-text-bottom{
   height: 15vh;
