@@ -24,9 +24,11 @@ export const skills = [
 
 ]
 export const projectUrls= [
-    "https://tourmaline-creponne-b4dad8.netlify.app/",
-    "https://animated-shortbread-1a09d4.netlify.app/",
-    "https://melodic-pudding-69dfc4.netlify.app/",
+    "https://crypto-price-graph.netlify.app/",
+    "https://dictionary-shshshsk-vlzher.netlify.app/login",
+    "https://paint-analogue.netlify.app/",
+    "https://custom-clock-vlzher.netlify.app/",
+    "https://kanban-desk.netlify.app/",
 
 ]
 

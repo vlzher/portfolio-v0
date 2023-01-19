@@ -15,7 +15,8 @@
   user-select: none;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2cqi;
+  text-align: center;
   color:$base-color3;
   opacity: 0;
   border-radius: 5%;
@@ -26,6 +27,7 @@
   outline: 3px solid $base-color3;
   font-family: "Fredoka One", cursive;
   z-index: 1;
+  white-space: pre;
 }
 
 .project1:hover{
