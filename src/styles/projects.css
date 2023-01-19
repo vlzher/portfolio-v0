@@ -20,11 +20,11 @@
 
 @media screen and (max-width: 1000px) {
   .screen.proj {
-    height: 250vh;
+    height: 215vh;
   }
   .projects {
     flex-direction: column;
-    height: 125vh;
+    height: 100vh;
     justify-content: flex-end;
   }
   .projects-text-bottom {
